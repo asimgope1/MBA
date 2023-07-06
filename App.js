@@ -9,7 +9,7 @@ import { getStringByKey } from './utills/Storage';
 import messaging from '@react-native-firebase/messaging'
 
 const App = () => {
-  // AAAA-M5niI4:APA91bE5IgmTF0ZYzXoXKs0xpqegca-4PJKABFWlCaOGVD-73VdxNOwY99iiNdiG-yuaHiiHE-tLtrCfDylxl3ViXiyOV0g7cRM-tnZP5H8MZx9yAPeocPL2P2XO6ENMoxCE54wTXdcj
+ 
   const [loader,setLoader]=useState(false)
   const [donemodal,setDoneModal]=useState(false)
   const [fcmmodal,setFcmModal]=useState(false)
